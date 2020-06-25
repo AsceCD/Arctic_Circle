@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "arcticcircle:block/snow_powder_block"
+    }
+}
