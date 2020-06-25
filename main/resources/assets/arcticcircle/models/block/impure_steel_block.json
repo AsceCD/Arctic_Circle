@@ -1,6 +1,0 @@
-{
-    "parent": "block/cube_all",
-    "textures": {
-        "all": "arcticcircle:block/impure_steel_block"
-    }
-}
