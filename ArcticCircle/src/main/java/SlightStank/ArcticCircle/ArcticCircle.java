@@ -5,12 +5,18 @@ import org.apache.logging.log4j.Logger;
 
 import SlightStank.ArcticCircle.lists.BlockList;
 import SlightStank.ArcticCircle.lists.ItemList;
+import SlightStank.ArcticCircle.lists.ToolMaterialList;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
+import net.minecraft.item.AxeItem;
 import net.minecraft.item.BlockItem;
+import net.minecraft.item.HoeItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.item.PickaxeItem;
+import net.minecraft.item.ShovelItem;
+import net.minecraft.item.SwordItem;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.ToolType;
@@ -67,7 +73,20 @@ public class ArcticCircle {
 				ItemList.impure_steel_block = new BlockItem(BlockList.impure_steel_block, new Item.Properties().group(ARCTICCIRCLE))
 					.setRegistryName(BlockList.impure_steel_block.getRegistryName()),
 				ItemList.cold_steel_block = new BlockItem(BlockList.cold_steel_block, new Item.Properties().group(ARCTICCIRCLE))
-					.setRegistryName(BlockList.cold_steel_block.getRegistryName())
+					.setRegistryName(BlockList.cold_steel_block.getRegistryName()),
+				
+				//Tools
+				ItemList.cold_steel_axe = new AxeItem(ToolMaterialList.cold_steel_material, -1.0f, 6.0f, new Item.Properties().group(ARCTICCIRCLE))
+					.setRegistryName(location("cold_steel_axe")),
+				ItemList.cold_steel_pick = new PickaxeItem(ToolMaterialList.cold_steel_material, -1, 6.0f, new Item.Properties().group(ARCTICCIRCLE))
+					.setRegistryName(location("cold_steel_pick")),
+				ItemList.cold_steel_hoe = new HoeItem(ToolMaterialList.cold_steel_material, 6.0f, new Item.Properties().group(ARCTICCIRCLE))
+					.setRegistryName(location("cold_steel_hoe")),
+				ItemList.cold_steel_shovel = new ShovelItem(ToolMaterialList.cold_steel_material, -1.0f, 6.0f, new Item.Properties().group(ARCTICCIRCLE))
+					.setRegistryName(location("cold_steel_shovel")),
+				ItemList.cold_steel_sword = new SwordItem(ToolMaterialList.cold_steel_material, 2, 10.0f, new Item.Properties().group(ARCTICCIRCLE))
+					.setRegistryName(location("cold_steel_sword"))
+					
 				
 			);
 			LOGGER.info("Items Registered");

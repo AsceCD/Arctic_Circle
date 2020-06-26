@@ -8,6 +8,12 @@
 	"block.arcticcircle.snow_powder_ore" : "Snow Powder Ore",
 	"block.arcticcircle.snow_powder_block" : "Snow Powder Block",
 	"block.arcticcircle.impure_steel_block" : "Impure Steel Block",
-	"block.arcticcircle.cold_steel_block" : "Cold Steel Block"
+	"block.arcticcircle.cold_steel_block" : "Cold Steel Block",
+	
+	"item.arcticcircle.cold_steel_axe" : "Cold Steel Axe",
+	"item.arcticcircle.cold_steel_pick" : "Cold Steel Pickaxe",
+	"item.arcticcircle.cold_steel_shovel" : "Cold Steel Shovel",
+	"item.arcticcircle.cold_steel_hoe" : "Cold Steel Hoe",
+	"item.arcticcircle.cold_steel_sword" : "Cold Steel Sword",
 	
 }

@@ -15,5 +15,11 @@ public class ItemList {
 	public static Item impure_steel_block;
 	public static Item cold_steel_block;
 	
+	//Tools
+	public static Item cold_steel_pick;
+	public static Item cold_steel_axe;
+	public static Item cold_steel_shovel;
+	public static Item cold_steel_hoe;
+	public static Item cold_steel_sword;
 		
 }
