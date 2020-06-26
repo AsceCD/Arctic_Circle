@@ -3,12 +3,15 @@ package SlightStank.ArcticCircle;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import SlightStank.ArcticCircle.lists.ArmorMaterialList;
 import SlightStank.ArcticCircle.lists.BlockList;
 import SlightStank.ArcticCircle.lists.ItemList;
 import SlightStank.ArcticCircle.lists.ToolMaterialList;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
+import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.item.AxeItem;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.HoeItem;
@@ -85,7 +88,17 @@ public class ArcticCircle {
 				ItemList.cold_steel_shovel = new ShovelItem(ToolMaterialList.cold_steel_material, -1.0f, 6.0f, new Item.Properties().group(ARCTICCIRCLE))
 					.setRegistryName(location("cold_steel_shovel")),
 				ItemList.cold_steel_sword = new SwordItem(ToolMaterialList.cold_steel_material, 2, 10.0f, new Item.Properties().group(ARCTICCIRCLE))
-					.setRegistryName(location("cold_steel_sword"))
+					.setRegistryName(location("cold_steel_sword")),
+					
+				//Armor
+				ItemList.cold_steel_helmet = new ArmorItem(ArmorMaterialList.cold_steel_material, EquipmentSlotType.HEAD, new Item.Properties().group(ARCTICCIRCLE))
+						.setRegistryName(location("cold_steel_helmet")),
+				ItemList.cold_steel_chestplate = new ArmorItem(ArmorMaterialList.cold_steel_material, EquipmentSlotType.CHEST, new Item.Properties().group(ARCTICCIRCLE))
+						.setRegistryName(location("cold_steel_chestplate")),
+				ItemList.cold_steel_leggings = new ArmorItem(ArmorMaterialList.cold_steel_material, EquipmentSlotType.LEGS, new Item.Properties().group(ARCTICCIRCLE))
+						.setRegistryName(location("cold_steel_leggings")),
+				ItemList.cold_steel_boots = new ArmorItem(ArmorMaterialList.cold_steel_material, EquipmentSlotType.FEET, new Item.Properties().group(ARCTICCIRCLE))
+						.setRegistryName(location("cold_steel_boots"))
 					
 				
 			);

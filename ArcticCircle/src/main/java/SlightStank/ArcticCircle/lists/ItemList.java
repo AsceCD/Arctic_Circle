@@ -21,5 +21,11 @@ public class ItemList {
 	public static Item cold_steel_shovel;
 	public static Item cold_steel_hoe;
 	public static Item cold_steel_sword;
+	
+	//Armor
+	public static Item cold_steel_helmet;
+	public static Item cold_steel_chestplate;
+	public static Item cold_steel_leggings;
+	public static Item cold_steel_boots;
 		
 }

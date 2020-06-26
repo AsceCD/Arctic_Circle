@@ -14,6 +14,11 @@
 	"item.arcticcircle.cold_steel_pick" : "Cold Steel Pickaxe",
 	"item.arcticcircle.cold_steel_shovel" : "Cold Steel Shovel",
 	"item.arcticcircle.cold_steel_hoe" : "Cold Steel Hoe",
-	"item.arcticcircle.cold_steel_sword" : "Cold Steel Sword"
+	"item.arcticcircle.cold_steel_sword" : "Cold Steel Sword",
+	
+	"item.arcticcircle.cold_steel_helmet" : "Cold Steel Helmet",
+	"item.arcticcircle.cold_steel_chestplate" : "Cold Steel Chestplate",
+	"item.arcticcircle.cold_steel_leggings" : "Cold Steel Leggings",
+	"item.arcticcircle.cold_steel_boots" : "Cold Steel Boots"
 	
 }
