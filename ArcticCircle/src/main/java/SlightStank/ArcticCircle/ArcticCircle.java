@@ -76,7 +76,7 @@ public class ArcticCircle {
 					.setRegistryName(BlockList.cold_steel_block.getRegistryName()),
 				
 				//Tools
-				ItemList.cold_steel_axe = new AxeItem(ToolMaterialList.cold_steel_material, -1.0f, 6.0f, new Item.Properties().group(ARCTICCIRCLE))
+				ItemList.cold_steel_axe = new AxeItem(ToolMaterialList.cold_steel_material, -1.0f, 6.0f, new Item.Properties().group(ItemGroup.MISC))
 					.setRegistryName(location("cold_steel_axe")),
 				ItemList.cold_steel_pick = new PickaxeItem(ToolMaterialList.cold_steel_material, -1, 6.0f, new Item.Properties().group(ARCTICCIRCLE))
 					.setRegistryName(location("cold_steel_pick")),
