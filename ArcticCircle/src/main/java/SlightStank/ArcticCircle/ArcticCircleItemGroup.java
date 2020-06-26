@@ -7,7 +7,7 @@ import net.minecraft.item.Items;
 public class ArcticCircleItemGroup extends ItemGroup {
 
 	public ArcticCircleItemGroup() {
-		super("Arctic Circle");
+		super("arcticcircle");
 		
 	}
 

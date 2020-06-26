@@ -1,5 +1,5 @@
 {
-	"itemGroup.Arctic Circle" : "Arctic Circle",
+	"itemGroup.arcticcircle" : "Arctic Circle",
 	
 	"item.arcticcircle.snow_powder" : "Snow Powder",
 	"item.arcticcircle.impure_steel" : "Impure Steel",
@@ -14,6 +14,6 @@
 	"item.arcticcircle.cold_steel_pick" : "Cold Steel Pickaxe",
 	"item.arcticcircle.cold_steel_shovel" : "Cold Steel Shovel",
 	"item.arcticcircle.cold_steel_hoe" : "Cold Steel Hoe",
-	"item.arcticcircle.cold_steel_sword" : "Cold Steel Sword",
+	"item.arcticcircle.cold_steel_sword" : "Cold Steel Sword"
 	
 }
