@@ -1,0 +1,3 @@
+gradlew genEclipseRuns
+
+PAUSE
