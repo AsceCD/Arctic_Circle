@@ -1,9 +1,15 @@
 package SlightStank.ArcticCircle.lists;
 
+import SlightStank.ArcticCircle.ArcticCircle;
 import net.minecraft.item.Item;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
+import net.minecraftforge.registries.ObjectHolder;
 
+@Mod.EventBusSubscriber(modid = ArcticCircle.MOD_ID, bus = Bus.MOD)
+@ObjectHolder(ArcticCircle.MOD_ID)
 public class ItemList {
-	
+
 	//Items
 	public static Item snow_powder;
 	public static Item impure_steel;

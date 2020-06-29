@@ -37,7 +37,7 @@ public class ArcticCircle {
 
 	public static final ItemGroup ARCTICCIRCLE = new ArcticCircleItemGroup();
 	
-	private static final Logger LOGGER = LogManager.getLogger(MOD_ID);
+	public static final Logger LOGGER = LogManager.getLogger(MOD_ID);
 
 	public ArcticCircle() {
 
@@ -58,7 +58,7 @@ public class ArcticCircle {
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 	public static class RegistryEvents{
 		
-		@SubscribeEvent
+		/*@SubscribeEvent
 		public static void registerItems(final RegistryEvent.Register<Item> event) {
 		
 			event.getRegistry().registerAll(
@@ -104,7 +104,7 @@ public class ArcticCircle {
 			);
 			LOGGER.info("Items Registered");
 		}
-		
+		*/
 		@SubscribeEvent
 		public static void registerBlocks(final RegistryEvent.Register<Block> event) {
 		
@@ -123,10 +123,10 @@ public class ArcticCircle {
 			);
 			LOGGER.info("Blocks Registered");
 		}
-		
 		private static ResourceLocation location(String name) {
-			
-			return new ResourceLocation(MOD_ID, name); 
+			return new ResourceLocation(ArcticCircle.MOD_ID, name); 
 		}
+		
 	}
+	
 }
