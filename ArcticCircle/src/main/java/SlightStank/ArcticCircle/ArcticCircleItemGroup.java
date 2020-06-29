@@ -5,10 +5,9 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 
 public class ArcticCircleItemGroup extends ItemGroup {
-
+	
 	public ArcticCircleItemGroup() {
 		super("arcticcircle");
-		
 	}
 
 	@Override

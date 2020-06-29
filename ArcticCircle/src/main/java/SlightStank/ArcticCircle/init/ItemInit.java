@@ -25,7 +25,7 @@ import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 @Mod.EventBusSubscriber(modid = ArcticCircle.MOD_ID, bus = Bus.MOD)
 public class ItemInit {
 	
-	public static final ItemGroup ARCTICCIRCLE = new ArcticCircleItemGroup();
+	public static final ItemGroup ARCTICCIRCLE = ArcticCircle.ARCTICCIRCLE;
 	
 	@SubscribeEvent
 	public static void registerItems(final RegistryEvent.Register<Item> event) {
