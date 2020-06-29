@@ -14,6 +14,7 @@ public class ItemList {
 	public static Item snow_powder;
 	public static Item impure_steel;
 	public static Item cold_steel;
+	public static Item ice_pop;
 	
 	//Item Blocks
 	public static Item snow_powder_ore;

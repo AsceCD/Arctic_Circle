@@ -1,15 +1,13 @@
 package SlightStank.ArcticCircle.init;
 
 import SlightStank.ArcticCircle.ArcticCircle;
-import SlightStank.ArcticCircle.ArcticCircleItemGroup;
 import SlightStank.ArcticCircle.lists.ArmorMaterialList;
-import SlightStank.ArcticCircle.lists.BlockList;
 import SlightStank.ArcticCircle.lists.ItemList;
 import SlightStank.ArcticCircle.lists.ToolMaterialList;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.AxeItem;
-import net.minecraft.item.BlockItem;
+import net.minecraft.item.Food;
 import net.minecraft.item.HoeItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -36,6 +34,8 @@ public class ItemInit {
 			ItemList.snow_powder = new Item(new Item.Properties().group(ARCTICCIRCLE)).setRegistryName(location("snow_powder")),
 			ItemList.impure_steel = new Item(new Item.Properties().group(ARCTICCIRCLE)).setRegistryName(location("impure_steel")),
 			ItemList.cold_steel = new Item(new Item.Properties().group(ARCTICCIRCLE)).setRegistryName(location("cold_steel")),
+			ItemList.ice_pop = new Item(new Item.Properties().group(ARCTICCIRCLE).maxStackSize(16).food(new Food.Builder().hunger(2).saturation(0.5f).build()))
+				.setRegistryName(location("ice_pop")),
 			
 			//Tools
 			ItemList.cold_steel_axe = new AxeItem(ToolMaterialList.cold_steel_material, -1.0f, 6.0f, new Item.Properties().group(ARCTICCIRCLE))
