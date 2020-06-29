@@ -37,16 +37,6 @@ public class ItemInit {
 			ItemList.impure_steel = new Item(new Item.Properties().group(ARCTICCIRCLE)).setRegistryName(location("impure_steel")),
 			ItemList.cold_steel = new Item(new Item.Properties().group(ARCTICCIRCLE)).setRegistryName(location("cold_steel")),
 			
-			//ItemBlocks
-			ItemList.snow_powder_ore = new BlockItem(BlockList.snow_powder_ore, new Item.Properties().group(ARCTICCIRCLE))
-				.setRegistryName(BlockList.snow_powder_ore.getRegistryName()),
-			ItemList.snow_powder_block = new BlockItem(BlockList.snow_powder_block, new Item.Properties().group(ARCTICCIRCLE))
-				.setRegistryName(BlockList.snow_powder_block.getRegistryName()),
-			ItemList.impure_steel_block = new BlockItem(BlockList.impure_steel_block, new Item.Properties().group(ARCTICCIRCLE))
-				.setRegistryName(BlockList.impure_steel_block.getRegistryName()),
-			ItemList.cold_steel_block = new BlockItem(BlockList.cold_steel_block, new Item.Properties().group(ARCTICCIRCLE))
-				.setRegistryName(BlockList.cold_steel_block.getRegistryName()),
-			
 			//Tools
 			ItemList.cold_steel_axe = new AxeItem(ToolMaterialList.cold_steel_material, -1.0f, 6.0f, new Item.Properties().group(ARCTICCIRCLE))
 				.setRegistryName(location("cold_steel_axe")),

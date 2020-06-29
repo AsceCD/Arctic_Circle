@@ -49,6 +49,25 @@ public class BlockInit {
 		);
 		ArcticCircle.LOGGER.info("Blocks Registered");
 	}
+	
+	@SubscribeEvent
+	public static void registerBlockItems(final RegistryEvent.Register<Item> event) {
+	
+		event.getRegistry().registerAll(
+				
+			ItemList.snow_powder_ore = new BlockItem(BlockList.snow_powder_ore, new Item.Properties().group(ARCTICCIRCLE))
+				.setRegistryName(BlockList.snow_powder_ore.getRegistryName()),
+			ItemList.snow_powder_block = new BlockItem(BlockList.snow_powder_block, new Item.Properties().group(ARCTICCIRCLE))
+				.setRegistryName(BlockList.snow_powder_block.getRegistryName()),
+			ItemList.impure_steel_block = new BlockItem(BlockList.impure_steel_block, new Item.Properties().group(ARCTICCIRCLE))
+				.setRegistryName(BlockList.impure_steel_block.getRegistryName()),
+			ItemList.cold_steel_block = new BlockItem(BlockList.cold_steel_block, new Item.Properties().group(ARCTICCIRCLE))
+				.setRegistryName(BlockList.cold_steel_block.getRegistryName())
+			
+			
+		);
+		ArcticCircle.LOGGER.info("Blocks Registered");
+	}
 	private static ResourceLocation location(String name) {
 		return new ResourceLocation(ArcticCircle.MOD_ID, name); 
 	}
